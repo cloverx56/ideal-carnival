@@ -13996,88 +13996,88 @@ div[class^=SpinnerWrapper-module_fadeinSpinner] div[class^=Spinner-module_root] 
 
 @font-face {
     font-family: Meta Web Bold;
-    src: url(../css/MetaWebPro-Bold.eot);
-    src: url(../css/MetaWebPro-Bold.eot) format("embedded-opentype"), url(../css/MetaWebPro-Bold.woff) format("woff");
+    src: url(./MetaWebPro-Bold.eot);
+    src: url(./MetaWebPro-Bold.eot) format("embedded-opentype"), url(./MetaWebPro-Bold.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Meta Web Normal;
-    src: url(../css/MetaWebPro-Normal.eot);
-    src: url(../css/MetaWebPro-Normal.eot) format("embedded-opentype"), url(../css/MetaWebPro-Normal.woff) format("woff");
+    src: url(./MetaWebPro-Normal.eot);
+    src: url(./MetaWebPro-Normal.eot) format("embedded-opentype"), url(./MetaWebPro-Normal.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Meta Web Thin;
-    src: url(../css/MetaWebPro-Thin.eot);
-    src: url(../css/MetaWebPro-Thin.eot) format("embedded-opentype"), url(../css/MetaWebPro-Thin.woff) format("woff");
+    src: url(./MetaWebPro-Thin.eot);
+    src: url(./MetaWebPro-Thin.eot) format("embedded-opentype"), url(./MetaWebPro-Thin.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Meta Web Light;
-    src: url(../css/MetaWebPro-Light.eot);
-    src: url(../css/MetaWebPro-Light.eot) format("embedded-opentype"), url(../css/MetaWebPro-Light.woff) format("woff");
+    src: url(./MetaWebPro-Light.eot);
+    src: url(./MetaWebPro-Light.eot) format("embedded-opentype"), url(./MetaWebPro-Light.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Meta Web Medium;
-    src: url(../css/MetaWebPro-Medium.eot);
-    src: url(../css/MetaWebPro-Medium.eot) format("embedded-opentype"), url(../css/MetaWebPro-Medium.woff) format("woff");
+    src: url(./MetaWebPro-Medium.eot);
+    src: url(./MetaWebPro-Medium.eot) format("embedded-opentype"), url(./MetaWebPro-Medium.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: MetaOffcPro-Bold;
-    src: url(../css/MetaOffcPro-Bold.eot);
-    src: url(../css/MetaOffcPro-Bold.woff) format("embedded-opentype"), url(../css/MetaOffcPro-Bold.ttf) format("truetype"), url(../css/MetaOffcPro-Bold.woff) format("woff");
+    src: url(./MetaOffcPro-Bold.eot);
+    src: url(./MetaOffcPro-Bold.woff) format("embedded-opentype"), url(./MetaOffcPro-Bold.ttf) format("truetype"), url(./MetaOffcPro-Bold.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: MetaOffcPro-Norm;
-    src: url(../css/MetaOffcPro-Norm.eot);
-    src: url(../css/MetaOffcPro-Norm.woff) format("embedded-opentype"), url(../css/MetaOffcPro-Norm.ttf) format("truetype"), url(../css/MetaOffcPro-Norm.woff) format("woff");
+    src: url(./MetaOffcPro-Norm.eot);
+    src: url(./MetaOffcPro-Norm.woff) format("embedded-opentype"), url(./MetaOffcPro-Norm.ttf) format("truetype"), url(./MetaOffcPro-Norm.woff) format("woff");
     font-weight: 400;
     font-style: normal
 }
 
 @font-face {
     font-family: Meta Bold;
-    src: url(../css/MetaWebPro-Bold.eot);
-    src: url(../css/MetaWebPro-Bold.eot) format("embedded-opentype"), url(../css/MetaOffcPro-Bold.woff) format("woff")
+    src: url(./MetaWebPro-Bold.eot);
+    src: url(./MetaWebPro-Bold.eot) format("embedded-opentype"), url(./MetaOffcPro-Bold.woff) format("woff")
 }
 
 @font-face {
     font-family: Meta Light;
-    src: url(../css/MetaWebPro-Light.eot);
-    src: url(../css/MetaWebPro-Light.eot) format("embedded-opentype"), url(../css/MetaWebPro-Light.woff) format("woff")
+    src: url(./MetaWebPro-Light.eot);
+    src: url(./MetaWebPro-Light.eot) format("embedded-opentype"), url(./MetaWebPro-Light.woff) format("woff")
 }
 
 @font-face {
     font-family: MetaWebPro-Bold;
-    src: url(../css/MetaWebPro-Bold.eot);
-    src: url(../css/MetaWebPro-Bold.eot) format("embedded-opentype"), url(../css/MetaOffcPro-Bold.woff) format("woff")
+    src: url(./MetaWebPro-Bold.eot);
+    src: url(./MetaWebPro-Bold.eot) format("embedded-opentype"), url(./MetaOffcPro-Bold.woff) format("woff")
 }
 
 @font-face {
     font-family: MetaWebPro-Normal;
-    src: url(../css/MetaWebPro-Normal.eot);
-    src: url(../css/MetaWebPro-Normal.eot) format("embedded-opentype"), url(../css/MetaWebPro-Normal.woff) format("woff")
+    src: url(./MetaWebPro-Normal.eot);
+    src: url(./MetaWebPro-Normal.eot) format("embedded-opentype"), url(./MetaWebPro-Normal.woff) format("woff")
 }
 
 @font-face {
     font-family: Meta-Normal;
-    src: url(../css/MetaWebPro-Normal.eot);
-    src: url(../css/MetaWebPro-Normal.eot) format("embedded-opentype"), url(../css/MetaWebPro-Normal.woff) format("woff")
+    src: url(./MetaWebPro-Normal.eot);
+    src: url(./MetaWebPro-Normal.eot) format("embedded-opentype"), url(./MetaWebPro-Normal.woff) format("woff")
 }
 
 .appTitle {
