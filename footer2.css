@@ -1,0 +1,77 @@
+#footerLinks .secondary-navigation .association-menu .certification-links li .icon-bbb {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -698px -46px !important;
+  width: 102px
+}
+
+#footerLinks .secondary-navigation .secondary-navigation-menu .social-icons li a.footer-icon-mobile {
+  background-color: #c8c8c8;
+  color: #293033;
+  font-weight: 700;
+  width: 97%;
+  border-radius: 2px;
+  padding: 6px 0 6px 0;
+  margin-right: 0
+}
+
+#footerLinks .icon-app-discover {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25px;
+  height: 28px;
+  background-position: -530px -315px !important
+}
+
+#footerLinks .sr {
+  position: absolute;
+  left: -9999px !important
+}
+
+#footerLinks .secondary-navigation .secondary-navigation-menu .social-icons li a.icon-tw {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -519px -118px !important
+}
+
+#footerLinks .secondary-navigation .secondary-navigation-menu .social-icons li a.icon-linkedin {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -519px -59px !important;
+  float: right
+}
+
+#footerLinks .secondary-navigation .secondary-navigation-menu .social-icons li a.icon-fb {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -520px 0 !important
+}
+
+#footerLinks .secondary-navigation .association-menu .certification-links li .icon-member-fdic {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -625px 12px !important;
+  width: 63px
+}
+
+#footerLinks .secondary-navigation .association-menu .certification-links li .icon-equal-housing-lender {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -634px -55px !important;
+  width: 50px
+}
+
+#footerLinks .secondary-navigation .association-menu .certification-links li .icon-symantec-image {
+  background-image: url(https://bank.discover.com/bankac/static/images/global/utility-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-position: -519px -415px !important;
+  width: 62px
+}

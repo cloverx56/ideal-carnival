@@ -1,0 +1,1053 @@
+:root {
+    --brand-colors-midnight-100: #23233f;
+    --brand-colors-midnight-60: #7b7b8c;
+    --brand-colors-link-blue: #3057b9;
+    --utility-colors-error-red: #a01c2b;
+    --brand-colors-midnight-7: #eff0f1;
+    --brand-colors-midnight-25: #c8c8cf;
+    --brand-colors-discover-orange: #ec6b29;
+    --brand-colors-9-fcb-116: #fcb116;
+    --brand-colors-pure-white: #ffffff;
+    --brand-colors-midnight-65: #707083;
+  }
+  
+  @font-face {
+    font-family: DiscoverSans;
+    src: local(DiscoverSans-Semibold),
+      url('./DiscoverSans-Semibold.woff2') format("woff2"),
+      url('./DiscoverSans-Semibold.woff') format("woff"),
+      url('./DiscoverSans-Semibold.otf') format("otf"),
+      url('./DiscoverSans-Semibold.ttf') format("truetype");
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  @font-face {
+    font-family: DiscoverSans-Bold;
+    src: local(DiscoverSans-Bold),
+      url('./DiscoverSans-Bold.woff2') format("woff2"),
+      url('./DiscoverSans-Bold.woff') format("woff"),
+      url('./DiscoverSans-Bold.ttf') format("truetype");
+    font-style: normal;
+    font-stretch: normal;
+  }
+  
+  body.main-header {
+    padding-top: 0px;
+  }
+  
+  .header-main {
+    box-sizing: border-box;
+    height: 60px;
+    width: 100%;
+    padding: 7px 30px 4px 16px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    background-color: #f8f8f8;
+    z-index: 3;
+    position: relative
+  }
+  
+  .Large-Zelle-01 {
+    width: 1024px;
+    height: 1985px;
+    padding: 0 0 3px;
+    background-color: var(--brand-colors-pure-white);
+  }
+  
+  .Send-money-fast-with.input-error {
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    padding: 0px; position: relative;
+  }
+  
+  .login-header {
+    width: 260px;
+    height: 91px;
+    margin: 0px 40px 0 0;
+    font-size: 32px;
+    font-family: DiscoverSans !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }
+  .text-style-1 {
+    color: var(--brand-colors-discover-orange);
+  }
+  
+  /********* Non-Zeplin CSS BEGIN *********/
+  
+  body, html {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+  
+  ::-ms-clear {
+    display: none;
+  }
+  
+  .Main-login-image-container {
+    overflow: hidden;
+    flex-basis: 50%;
+  }
+  
+  .img-container-small {
+      position: relative;
+  }
+  
+  .Main-login-image {
+    width: auto;
+    height: 100%;
+    background-image: url(main-login-image.jpg);
+    background-position: 32% center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  .orange-mobile-app-container{
+      flex-basis: 50%;
+      background-color: var(--brand-colors-9-fcb-116);
+  }
+  
+  .orange-mobile-app {
+      width: 300px;
+      margin: 25px auto 23px auto;
+  }
+  
+  .apple-google-container {
+      flex-basis: 50%;
+      height: 210px;
+      position: relative;
+  }
+  
+  .apple-google {
+      margin: 56px auto 56px 30px;
+      width: 331px;
+  }
+  
+  .ag-sub-text {
+      height: 38px;
+      margin: 20px 0 0;
+      font-family: DiscoverSans;
+      font-size: 13px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.46;
+      letter-spacing: normal;
+      color: var(--brand-colors-midnight-100);
+      }
+  
+  .mobile-app-text {
+      padding-right: 22px;
+      margin-bottom: 15px;
+      font-family: DiscoverSans;
+      font-size: 24px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.25;
+      letter-spacing: normal;
+      color: var(--brand-colors-midnight-100);
+  }
+  
+  .rating-text-container {
+      display: flex;
+      overflow: visible;
+      align-content: stretch;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 10px;
+      height: 19px;
+      overflow: visible;
+      width: 320px;
+  }
+  
+  .rating-text1 {
+      font-family: DiscoverSans;
+      font-size: 14px;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.47;
+      letter-spacing: -0.16px;
+      color: var(--brand-colors-midnight-100);
+  }
+  
+  .rating-text2 {
+       font-family: DiscoverSans;
+       font-size: 13px;
+       font-stretch: normal;
+       font-style: normal;
+       line-height: 1.46;
+       letter-spacing: normal;
+       color: var(--brand-colors-midnight-100);
+  }
+  
+  .pipe-separator {
+      width: 1px;
+      height: 22px;
+      background-color: var(--brand-colors-midnight-100);
+  }
+  
+  .has-error .valid[aria-hidden="true"] {
+    display: block;
+  }
+  
+  .valid[aria-hidden="true"] {
+    display: none;
+  }
+  /* line 140, ../..assets/scss/molecules/_form-validations.scss */
+  .valid li[aria-hidden="true"] {
+    display: none;
+  }
+  
+  .Login-Column-container.input-error {
+  
+  }
+  
+  .Login-Column-container {
+      width: 300px;
+      margin: 20px auto 55px auto;
+  }
+  
+  .login-column-outer-container{
+      flex-basis: 50%; padding-top: 35px;
+  }
+  
+  .show-password {
+      display: block;
+      height: 18px;
+      width: 18px;
+      background-image: url(icon-show.svg);
+  }
+  
+  .hide-password {
+      display: none;
+      height: 18px;
+      width: 18px;
+      background-image: url(icon-hide.svg);
+  }
+  
+  .login-column{
+    width:512;
+    margin-left: 106px;
+  }
+  
+  .zelle-checkbox {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FF */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+    transform: scale(1.5);
+  }
+  
+  .Million-container{
+    padding-top: 14px;
+  }
+  
+  .Remember-User-ID {
+    width: 139px;
+    height: 22px;
+    margin: 0 0 0 10px;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }
+  
+  .stars-tooltip {
+    z-index: 1;
+    top: 25px;
+    left: -36px;
+    border-radius: 10px;
+    position:absolute;
+    display: none;
+    width: 320px;
+    margin: 13px 0 0;
+    padding: 10px 15px 20px 15px;
+    box-shadow: 0 0 14px 0 rgba(101, 101, 120, 0.24), 0 20px 14px 0 rgba(0, 0, 0, 0.06);
+    background-color: #efeff1;
+  }
+  
+  .stars-tooltip:after, .stars-tooltip:before {
+      bottom: 100%;
+      left: 50%;
+      border: solid transparent;
+      content: "";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+  }
+  
+  .stars-tooltip:after {
+      border-color: rgba(136, 183, 213, 0);
+      border-bottom-color: #efeff1;
+      border-width: 18px;
+      margin-left: -130px;
+  }
+  
+  .stars-tooltip-header {
+    text-align: left;
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+  
+  .stars-tooltip-content {
+    padding-top: 20px;
+  }
+  
+  .stars-tooltip-text {
+    text-align: left;
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .stars-tooltip-cancel {
+    float: right;
+    cursor: pointer;
+  }
+  
+  .for-security-reasons{
+    margin: 13px 0px 0px;
+  }
+  
+  
+  .discover-bubble-container {
+    position: absolute;
+    left: 50%;
+  }
+  
+  .bubble-relative-container {
+    display: none;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    margin-bottom:0px;
+  }
+  
+  .Bubble-container{
+    width: 167px;
+    height: 186px;
+    overflow: hidden;
+    position: relative;
+    left: -50%;
+    top: -85.75px;
+    visibility: visible;
+  }
+  
+  .Bubble-container-mobile-error{
+    width: 156px;
+    height: 138px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 788px;
+    visibility: hidden;
+  }
+  
+  .Discover_Discover-Glow_RGB {
+      position: absolute;
+      width: 156px;
+      top: 55px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  }
+  
+  .Discover_Discover-Glow_RGB_small {
+      display: none;
+  }
+  
+  .One-Tap{
+    color: var(--brand-colors-discover-orange)
+  }
+  
+  .Call-to-Action {
+    width: 57px;
+    height: 26px;
+    font-family: DiscoverSans !important;
+    font-size: 19px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.37;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brand-colors-pure-white);
+  }
+  
+  .Forgot-User-ID-Pas {
+    width: 199px;
+    height: 22px;
+    margin: 30px 0 20px;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: var(--brand-colors-link-blue);
+  }
+  
+  #main-content a, #main-content a:link, #main-content a:hover, #main-content a:active, #main-content a:visited {
+    color: #3057b9;
+  }
+  
+  .Register-Your-Accoun {
+    width: 166px;
+    height: 22px;
+    margin: 20px 33px 0 0;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    color: var(--brand-colors-link-blue);
+  }
+  
+  .Your-Discover-accoun {
+    max-width: 665px;
+    margin: 50px 0px 30px;
+    font-family: DiscoverSans !important;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }
+  .star-container {
+    position: relative;
+    display: inline-block;
+  }
+  .star-top {
+      padding: 0;
+      position: absolute;
+      z-index: 1;
+      display: block;
+      top: 0;
+      left: 0;
+      font-size: 23px;
+      overflow: hidden;
+      color: var(--brand-colors-discover-orange);
+  }
+  .star-bottom {
+      padding: 0;
+      display: block;
+      z-index: 0;
+      font-size: 23px;
+      color: var(--brand-colors-midnight-100);
+  }
+  .star-single {
+    padding-right: 4px;
+  }
+  
+  .Please-complete-all {
+    width: 300px;
+    height: 19px;
+    margin: 15px 0 20px;
+    font-family: DiscoverSans;
+    font-size: 13px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    color: var(--utility-colors-error-red);
+  }
+  
+  label {
+  }
+  
+  label.zelle-label{
+    width: 46px;
+    height: 19px;
+    margin: 0 254px 5px 0;
+    font-family: DiscoverSans !important;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.46;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }​​​​
+  
+  
+  button,
+  sup,
+  input,
+  optgroup,
+  select,
+  hr,
+  textarea {
+    color: inherit;
+    font: inherit;
+  }
+  
+  input[type=text].zelle-input, input[type=password].zelle-input {
+    width: 300px;
+    height: 42px;
+    margin: 5px 0 0;
+    padding: 10px 40px 10px 10px;
+    border-radius: 5px;
+    border: solid 1px var(--brand-colors-midnight-60);
+  }
+  
+  .has-error input[type=text].zelle-input, .has-error input[type=password].zelle-input{
+    max-width: 100%;
+    border-color: #a01c2b;
+  }
+  
+  .requirement {
+    line-height: 2.5;
+    font-size: 13px;
+    font-family: DiscoverSans !important;
+    color: #a01c2b;
+  }
+  
+  .error {
+    color: #a01c2b;
+  }
+  
+  button.submit-button{
+    width: 85px;
+    height: 43px;
+    margin: 30px 114px 30px 0;
+    padding: 8px 14px 9px;
+    border-radius: 21.5px;
+    background-color: var(--brand-colors-discover-orange);
+  }
+  
+  sup.Zelle-Sup {
+      font-size: 45%;
+      top: -1.3em;
+  }
+  
+  .eye {
+    position: absolute;
+    margin-top: -28px;
+    /* margin-left: 272px;  */ right: 10px;
+    cursor: pointer;
+  }
+  
+  .has-error .eye {
+    /* margin-left: 236px; */ right: 50px;
+  }
+  
+  .error-icon {
+    position: absolute;
+    margin-top: -35.5px;
+    /* margin-left: 264px; */ right: 0;
+  }
+  
+  hr.safe-line{
+    border: 1px solid var(--brand-colors-midnight-100);
+    background-color: var(--brand-colors-midnight-100);
+  }
+  
+  hr.fast-line{
+    border: 1px solid var(--brand-colors-discover-orange);
+    background-color: var(--brand-colors-discover-orange);
+  }
+  
+  hr.easy-line{
+    border: 1px solid var(--brand-colors-9-fcb-116);
+    background-color: var(--brand-colors-9-fcb-116);
+  }
+  
+  .flex-container {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* IE 10 */
+    display: -webkit-flex; /* Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+  }
+  
+  .flex-container hr {
+    height: 0px;
+    width: 30px;
+    margin: 20px;
+  }
+  
+  .flex-container span {
+    width: auto;
+    height: 40px;
+    font-family: DiscoverSans !important;
+    font-size: 32px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  
+  .flex-container li {
+    width: auto;
+    height: 100%;
+    margin: 0px 30px 50px 30px;
+    font-family: DiscoverSans !important;
+    font-size: 19px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+  }
+  
+  .info-boxes {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* IE 10 */
+    display: -webkit-flex; /* Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    flex: 1 0 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .info-boxes::before {
+    content: "";
+    display: block;
+    padding-top: 50px;
+  }
+  
+  .fast-box {
+    background-color: var(--brand-colors-9-fcb-116);
+  }
+  
+  .safe-box {
+    background-color: var(--brand-colors-discover-orange);
+  }
+  
+  .easy-box {
+    background-color: var(--brand-colors-midnight-100);
+  }
+  
+  .Fast {
+    color: var(--brand-colors-midnight-100);
+  }
+  
+  .Safe {
+    color: var(--brand-colors-pure-white);
+  }
+  
+  .Easy {
+    color: var(--brand-colors-pure-white);
+  }
+  
+  .Fast-Line {
+    border: solid 2px var(--brand-colors-discover-orange);
+  }
+  
+  .Safe-Line {
+    border: solid 2px var(--brand-colors-midnight-100);
+  }
+  
+  
+  .Easy-Line {
+    border: solid 2px var(--brand-colors-9-fcb-116);
+  }
+  
+  .Send-money-directly {
+    color: var(--brand-colors-midnight-100);
+  }
+  
+  .Send-or-receive-money{
+    color: var(--brand-colors-pure-white);
+  }
+  
+  .Send-money-to-almost {
+    color: var(--brand-colors-pure-white);
+  }
+  
+  .review-app-container {
+    margin: 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .review-text-and-stars {
+    position: relative;
+    margin: auto;
+    display: inline-block;
+  }
+  
+  .-out-of-5-stars {
+    position: relative;
+    width: 150px;
+    height: 28px;
+    font-family: DiscoverSans !important;
+    font-size: 19px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: var(--brand-colors-midnight-100);
+  }
+  .Million-Ratings {
+    width: 150px;
+    height: 28px;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: var(--brand-colors-midnight-100);
+  }
+  .ToolTip-style {
+    padding-top: 11px;
+    background-image: url(icon-tooltip.svg);
+    width: 13px;
+    height: 13px;
+    /* margin: 7px 0 7px 3px; */
+    object-fit: contain;
+    position: relative; top: 2px; left:5px;
+  }
+  
+  .Over-29-Million-Ra {
+    width: 230px;
+    height: 22px;
+    margin: 10px 367px 30px;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brand-colors-midnight-100);
+  }
+  .review-outer-container{
+    position: relative;
+    text-align: center;
+  }
+  .review-container{
+    margin-top: 14px;
+    padding-bottom: 32px;
+  }
+  .button-container{
+    margin: 0px 0px 0px 13px;
+  }
+  .button-padding{
+    padding-right: 14px;
+  }
+  .text-container{
+    margin: 20px 0 0
+  }
+  .Appstore-Badge {
+    width: 120px;
+    height: 40px;
+    vertical-align: text-bottom;
+    object-fit: contain;
+  }
+  .GooglePlay {
+    width: 135px;
+    height: 40px;
+    vertical-align: text-bottom;
+    object-fit: contain;
+  }
+  .Text-style{
+    width: auto;
+    height: 22px;
+    margin: 20px 0px 0px;
+    font-family: DiscoverSans !important;
+    font-size: 15px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.47;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--brand-colors-midnight-100);
+  }
+  
+  .remember-me-label {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+  }
+  
+  .remember-me-checkbox {
+    width: 20px;
+    height: 20px;
+    padding-right: 18px;
+    padding-top: 1px;
+    border-radius: 4px;
+    border: solid 1px #91919f;
+    background-color: var(--brand-colors-pure-white);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-image: url(icon-check.svg);
+    background-position-x: center;
+    background-position-y: center;
+  }
+  
+  .remember-me-checked {
+    background-color: #23233f;
+  }
+  
+  
+  
+  .Footnote-Container {
+    max-width: 100%;
+    max-width: -moz-available;          /* FF */
+    max-width: -webkit-fill-available;  /* Safari */
+    max-width: fill-available;
+    height: 172px;
+    padding: 29px 32px 30px 32px;
+    background-color: #e9e9eb;
+    margin: 50px 0 0 0;
+  }
+  
+  .footnote-text {
+    height: 100%;
+    max-width: 1540px;
+    width: auto;
+    margin: 0 auto;
+  }
+  
+  .Zelle-and-the-Zelle {
+    font-family: DiscoverSans !important;
+    padding-bottom: 9px;
+    font-size: 13px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }
+  .password-container{
+    padding-top: 22px;
+  }
+  .checkbox-container{
+    margin-left: 2.5px;
+    padding-top: 32px;
+  }
+  
+  .Review-outer-column{
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .error-box-off {
+    width: 370px;
+    height: 90px;
+    right: 39px;
+    position: relative;
+    margin: 0 0px 20px;
+    padding: 15px 10px;
+    border-radius: 10px;
+    border: solid 1.5px var(--utility-colors-error-red);
+    background-color: var(--brand-colors-pure-white);
+    display: none;
+  }
+  
+  .Icon-Error-Copy-3 {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px 30px 0;
+    object-fit: contain;
+  }
+  .The-information-you {
+    font-family: DiscoverSans !important;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    color: var(--brand-colors-midnight-100);
+  }
+  
+  .main-container{
+    height: auto;
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* IE 10 */
+    display: -webkit-flex; /* Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 61px;
+  }
+  .error-box-on {
+    display: none;
+    width: 370px;
+    /* width: calc(100% - 160px); */
+    height: auto;
+    margin: 10px auto 0 auto;
+    padding: 15px 11px;
+    border-radius: 10px;
+    border: solid 1.5px var(--utility-colors-error-red);
+    background-color: var(--brand-colors-pure-white);
+  }
+  
+  @media only screen and (max-width: 900px) {
+      .Main-login-image {
+          background-position: 37% center;
+      }
+  }
+  
+  @media only screen and (max-width: 730px) {
+    .stars-tooltip {
+      border-radius: unset;
+      overflow: hidden;
+      position: fixed;
+      left: 0 !important;
+      top: 0 !important;
+      display: none;
+      z-index:1101;
+      width: 100% !important;
+      height: 100% !important;
+      max-width: 100% !important;
+      margin: 0;
+      overflow: hidden;
+      padding: 10px 15px 20px 15px;
+      box-shadow: 0 0 14px 0 rgba(101, 101, 120, 0.24), 0 20px 14px 0 rgba(0, 0, 0, 0.06);
+      background-color: #efeff1;
+    }
+    .stars-tooltip-content {
+      padding-top: 44px;
+    }
+  }
+  
+  @media only screen and (max-width: 730px) {
+      .main-container{
+          flex-direction: column;
+      }
+      .Discover_Discover-Glow_RGB{
+          display: none;
+      }
+      .Login-Column-container {
+          padding: 0;
+          width: 300px;
+          margin: 20px auto 43px auto;
+      }
+      .login-column-outer-container {
+          margin: auto;  width: 100%; display: flex; flex-direction: column; justify-content: center; padding-top: 10px;
+      }
+      .Main-login-image {
+          background-position: 19% 12%;
+          width: 100%;
+          height: 275px;
+      }
+      .orange-mobile-app-container {
+          padding: 25px 10px;
+      }
+      .rating-text1 {
+          position: relative;
+          margin-bottom: 5px;
+      }
+      .apple-google-container {
+          padding: 25px 0px 72px 0px;
+      }
+      .apple-google {
+          margin: auto;
+          width: 300px;
+      }
+      .ag-sub-text {
+          font-size: 15px;
+      }
+      .orange-mobile-app {
+          margin: auto;
+      }
+  
+      .Discover_Discover-Glow_RGB_small {
+          position: absolute;
+          display: inline-block;
+          width: 86px;
+          height: 86px;
+          bottom: 497px;
+          right: -43px;
+      }
+      .rating-text-container{
+          align-items: unset;
+          height: unset;
+          flex-direction: column;
+      }
+      .pipe-separator {
+          display: none;
+      }
+      .rating-text1 {
+          position: relative;
+      }
+      .ToolTip-style{
+          /* margin: 8px 0 7px 7px; */
+          position: absolute;
+          right: -20px; bottom: 0; top: 3px;
+      }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .error-box-on {
+      display: none;
+      width: calc(100% - 160px);
+      height: auto;
+      margin: 10px auto 0 auto;
+      padding: 15px 10px;
+      border-radius: 10px;
+      border: solid 1.5px var(--utility-colors-error-red);
+      background-color: var(--brand-colors-pure-white);
+    }
+      .stars-tooltip {
+          left: -36px;
+      }
+  }
+  @media only screen and (max-width: 450px) {
+      .apple-google-container {
+          padding: 25px 10px 72px 10px;
+      }
+      .Discover_Discover-Glow_RGB_small{
+          right: -53px;
+      }
+      .error-box-on {
+       width: 100%;
+       padding: 15px 8px;
+        }
+      .Login-Column-container {
+        padding: 0px;  width: 100%;
+      }
+      .login-column-outer-container {
+        padding: 10px 15px 0 15px;
+      }
+      input[type=text].zelle-input, input[type=password].zelle-input { width: 100%; }
+      .has-error .eye { margin-left: 0; right: 50px; }
+      .error-icon { margin-left: 0; right: 0px; }
+  }
+  @media only screen and (max-width: 975px) and (min-width: 731px) {
+    /* .Discover_Discover-Glow_RGB { width: 135px;} */
+    /* .error-box-on {
+      display: none;
+      height: auto;
+      margin: -16px auto 0 auto;
+      width: calc(74% - 20px);
+    } */
+    .Main-zelle-image.error-input {
+      background-position: 67%;
+    }
+  }
+  
+  @media only screen and (max-width: 730px) and (min-width: 450px) {
+    .error-box-on {
+      display: none;
+      height: auto;
+      margin: 10px auto 0 auto;
+      width: 370px;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) and (min-width: 731px) {
+    .Main-zelle-image.error-input {
+      background-position: 64%;
+    }
+  }
+  
