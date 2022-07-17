@@ -15,8 +15,8 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /* line 17, ../..assets/scss/_base/_bootstrap-custom.scss */
 [data-clover-target=spinner] {
-    border: 9px solid #e3e3e3;
-    border-top: 9px solid #e97234;
+    border: 9px solid #e3e3e3 !important;
+    border-top: 9px solid #e97234 !important;
 }
 html {
     font-family: sans-serif;
